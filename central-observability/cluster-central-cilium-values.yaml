@@ -54,7 +54,7 @@ iptablesRandomFully: false
 kubeConfigPath: ""
 # -- (string) Kubernetes service host - use "auto" for automatic lookup from the cluster-info ConfigMap
 #BLOG
-k8sServiceHost: "<Enter-IP"
+k8sServiceHost: "192.10.1.2"
 # @schema
 # type: [string, integer]
 # @schema
@@ -3129,10 +3129,10 @@ clustermesh:
     clusters:
     # clusters:
     # # -- Name of the cluster
-      - name: cluster1
+      - name: dev
         ips:
-        - 10.0.1.3
-        port: 32379
+        - 192.10.1.3
+        port: 32380
 
     # # -- Address of the cluster, use this if you created DNS records for
     # # the cluster Clustermesh API server.
