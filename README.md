@@ -14,6 +14,7 @@ This functions in a flat or not flat network architecture.
 ---
 Notable cilium helm values
 clustermesh enabled true
+
 hubble-relay rollout restart pods true
 clustermesh pre config line xxx
-
+```
