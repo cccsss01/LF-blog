@@ -37,3 +37,15 @@ add annotations
     service.cilium.io/global: "true"
 ```
 
+## Example service monitor for central cluster
+```
+relabelings replacement to cluster name.
+
+Many grafana charts have cluster/multi cluster capabilities, w/o this relabiling the central cluster cannot showcase it's own metrics
+```
+
+## notable prometheus agent values
+```
+remote write and external labels
+```
+
