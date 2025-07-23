@@ -56,3 +56,8 @@ With this cluster no relabelings are required as all external labels are transmi
 replicas = 0
 Using this just to autogenerate the service so that the service is the same amongst all clusters and can be globally routed througout cilium mesh
 ```
+
+## prometheus agent service values
+```
+global annotation for cilium
+```
