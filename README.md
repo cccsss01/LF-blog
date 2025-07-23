@@ -17,4 +17,5 @@ clustermesh enabled true
 cluster names and id's (can't be 0)
 hubble-relay rollout restart pods true
 clustermesh pre config line xxx
+cluster authmode: cluster
 ```
