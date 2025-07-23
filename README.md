@@ -47,5 +47,12 @@ Many grafana charts have cluster/multi cluster capabilities, w/o this relabiling
 ## notable prometheus agent values
 ```
 remote write and external labels
+
+With this cluster no relabelings are required as all external labels are transmitted appropriately
 ```
 
+## Notable decoy prometheus on "agent" cluster values
+```
+replicas = 0
+Using this just to autogenerate the service so that the service is the same amongst all clusters and can be globally routed througout cilium mesh
+```
