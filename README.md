@@ -10,4 +10,10 @@ cluster 2's ips are 10.3.2.1 10.3.2.1
 
 This functions in a flat or not flat network architecture.
 ```
+## Cilium helm values
+---
+Notable cilium helm values
+clustermesh enabled true
+hubble-relay rollout restart pods true
+clustermesh pre config line xxx
 
