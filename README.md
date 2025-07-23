@@ -29,3 +29,11 @@ I've set these though I haven't found them that important
   replicaExternalLabelName: "promcentral"
 ```
 
+## Notable prometheus service manifest value
+```
+Expose the service to the mesh
+add annotations
+  annotations:
+    service.cilium.io/global: "true"
+```
+
