@@ -21,7 +21,7 @@ spec:
   serviceAccountName: prometheus-k8s
   serviceMonitorNamespaceSelector: {}
   serviceMonitorSelector: {}
-  version: 2.47.0
+  version: 3.5.0
   remoteWrite:
   - url: "http://prometheus-k8s.monitoring.svc.cluster.local:9090/api/v1/write"
     name: "dev"
