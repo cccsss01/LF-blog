@@ -10,8 +10,8 @@ cluster 2's ips are 10.3.2.1 10.3.2.1
 
 This functions in a flat or not flat network architecture.
 ```
-## Cilium helm values
----
+## Notable Cilium helm values
+```
 Notable cilium helm values
 clustermesh enabled true
 cluster names and id's (can't be 0)
@@ -19,3 +19,13 @@ hubble-relay rollout restart pods true
 clustermesh pre config line xxx
 cluster authmode: cluster
 ```
+## Notable Prometheus manifest values
+```
+enableRemoteWriteReceiver: true
+
+I've set these though I haven't found them that important
+  externalLabels:
+    cluster: "promcentral"
+  replicaExternalLabelName: "promcentral"
+```
+
